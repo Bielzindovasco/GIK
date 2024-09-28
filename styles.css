@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+html, body {
+    height: 100%;
+    overflow-y: auto; /* Barra de rolagem para todo o site */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #222;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.container {
+    flex: 1;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #222;
+    color: #fff;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.post {
+    background: #333;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+}
+
+.comments-section {
+    background: #333;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px 0;
+    max-width: 100%;
+    max-height: 150px; 
+}
+
+.comments-section h3 {
+    margin-bottom: 10px;
+}
+
+.comments-section textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background: #222;
+    color: #fff;
+    resize: none;
+}
+
+.comments-section button {
+    background: #444;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.comments-section button:hover {
+    background: #555;
+}
+
+.servicos-container, .horarios-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.servico, .horario {
+    background: #333;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+    margin: 10px 0;
+}
+
+.plano {
+    background: #333;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: left;
+    width: 30%;
+    margin: 10px 0;
+}
+
+.plano img {
+    max-width: 80%;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto; 
+}
+
+form {
+    background: #333;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background: #222;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+form button {
+    background: #444;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
